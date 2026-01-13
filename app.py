@@ -103,7 +103,7 @@
     "st.set_page_config(page_title=\"Diabetes Prediction\", page_icon=\"🩺\")\n",
     "\n",
     "# Load trained model\n",
-    "with open(\"diabetes_model.pkl\", \"rb\") as file:\n",
+    "with open(\"Diabetes_model.pkl\", \"rb\") as file:\n",
     "    model = pickle.load(file)\n",
     "\n",
     "# App title\n",
